@@ -1,0 +1,220 @@
+
+
+
+/*-- Big tablet to 1023px to 1200px ---*/
+@media only screen and (max-width: 1200px){
+
+.gontor-text-box{
+    width: 100%;
+    padding: 0 2%;
+    left: 25%;
+  }
+
+  .row{padding: 0 2%;}
+
+	.social-links {
+    float: right;
+		margin-left: 200px;
+  }
+
+
+}
+
+/*-- Small tablet to Big tablet 767px to 1023px ---*/
+@media only screen and (max-width: 1023px){
+	body{font-size: 18px;}
+  section{padding: 60px 0;}
+
+
+  .gontor-text-box{    
+    top: 35%;
+    left: 20%;
+  }
+	
+	 h4{
+    font-size: 45%;
+    font-weight: 400;
+  }
+
+
+  .social-links {
+    float: right;
+    margin-left: 100px;
+    }
+}
+
+/*--Small phones to small tablet  480px to 767px ---*/
+@media only screen and (max-width: 767px){
+
+  body{ font-size: 16px;}
+
+  section{padding: 30px 0}
+
+  .row{padding, 0 4%;}
+
+  .gontor-text-box{
+    top: 36%;
+    left: 22%;
+  }
+
+
+  .main-nav{display: none;}
+  .second-nav{display: none;}
+  .mobile-nav-icon{display: inline-block;}
+
+  .main-nav{
+    margin-left:25px;
+  }
+  .second-nav{
+    float: left;
+  }
+
+  .main-nav li{display: block;}
+  .second-nav li{display: block;}
+
+  .main-nav li a:link,
+  .main-nav li a:visited{
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 100%;
+  }
+
+  .second-nav li a:link,
+  .second-nav li a:visited{
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 100%;
+  }
+
+  .sticky .main-nav{margin-top:10px;}
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited{padding:10px 0;}
+
+  .sticky .second-nav{margin-top:-5px;}
+  .sticky .second-nav li a:link,
+  .sticky .second-nav li a:visited{padding: 3px 0;}
+
+
+  .sticky .mobile-nav-icon{margin-top: 10px;}
+
+  h1{font-size: 180%;}
+  h2{font-size: 150%;}
+  h3{font-size: 100%}
+  h4{
+    font-size: 45%;
+    font-weight: 400;
+  }
+
+  .box img{
+    width: 100%;
+    height: 299.1px;
+  }
+
+  .box-city img{
+    width: 100%;
+    height: 135px;
+    margin: 12px 0;
+  }
+
+  .city-features{
+    font-size: 42%;
+    letter-spacing:1px;
+  }
+
+  .icon-small{
+    width: 15px;
+    font-size: 200%;
+
+  }
+
+footer{
+  padding: 10px;
+}
+
+.footer-nav li,
+.social-links li{
+  margin-right: 30px;
+}
+
+  .social-links {
+    float: right;
+    font-size: 75%;
+    margin-left: 100px;
+  }
+
+}
+
+@media only screen and (max-width: 600px){
+  .gontor-text-box{
+    top:36%;
+    left: 18%;
+  }
+
+  .icon-small{
+    width: 10px;
+  }
+
+  .city-features{
+    font-size: 35%;
+  }
+
+  .box-city img{
+    width: 100%;
+    height: 135px;
+    margin: 12px 0;
+  }
+
+  .social-links { 
+    float: right;   
+    margin-left: 10px;
+    }
+}
+
+/*--Small phones from 0 to 480px ---*/
+@media only screen and (max-width: 480px){
+  section{padding: 25px 0;}
+
+  h4{font-size: 100%;}
+
+  .gontor-text-box{
+    top:36%;
+    left: 10%;
+  }
+  .box-city img{
+    width: 100%;
+    height: 100%;
+    margin-top: 28px;
+    margin-bottom: 20px;
+  }
+
+  .row .box-3 {
+    padding:0;
+  }
+
+  .city-features{
+    font-size: 100%;
+    letter-spacing:1px;
+  }
+  .icon-small{
+    width: 30px;
+  }
+  .social-links { 
+    margin-top:-15px;   
+    margin-left: 10px;
+    }
+
+  
+  .social-links li{
+    margin-right: 10px;
+  }
+
+  .footer-nav li{
+    margin-right: 5px;
+  }
+
+
+
+
+}
