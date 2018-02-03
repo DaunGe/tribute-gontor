@@ -62,7 +62,6 @@ h2{
 h3{
   font-size: 150%;
   text-align: center;
-  font-weight: 20%;
   word-spacing: 4px;
   letter-spacing: 1px;
   margin-top: 15px;
@@ -74,8 +73,6 @@ h4{
   text-align: center;
   word-spacing: 1.5px;
   letter-spacing: 0.5px;
-
-  font-weight: 400%;
 }
 
 h2:after{
@@ -215,7 +212,7 @@ font-size: 90%;
 /***mobile-nav-icon***/
 .mobile-nav-icon{
   float:right;
-  margin-top: 15px;
+  margin-top: 30px;
   cursor: pointer;
   display:none;
 }
@@ -232,16 +229,12 @@ font-size: 90%;
   top:0;
   left:0;
   width:100%;
-
-
-  background-color: rgba(255, 255, 255, 0.90);
+  background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 2px 2px #efefef;
   z-index: 9999;
 }
 
-.sticky .main-nav{
-  margin-top:-5px;
-  }
+.sticky .main-nav{margin-top: 5px;}
 
 .sticky .main-nav li a:link,
 .stick .main-nav li a:visited{
@@ -249,26 +242,26 @@ font-size: 90%;
   color: #555;
 }
 
-.sticky .main-nav  li .about:hover,
+/* .sticky .main-nav  li .about:hover,
 .sticky .main-nav  li .about:active{
   color: #efab6e;
   border-bottom: 2px solid #efab6e;
-}
+} */
 
-.sticky .main-nav  li .head-master:hover,
+/* .sticky .main-nav  li .head-master:hover,
 .sticky .main-nav  li .head-master:active{
   color: #efab6e;
   border-bottom: 2px solid #efab6e;
- }
+ } */
 
-.sticky .main-nav  li .gontor-branch:hover,
+/* .sticky .main-nav  li .gontor-branch:hover,
 .stick .main-nav  li .gontor-branch:active{
   color: #efab6e;
   border-bottom: 2px solid #efab6e;
-}
+} */
 
 .sticky .second-nav{
-  margin-top:-5px;
+  margin-top: 5px;
   }
 .sticky .second-nav li a:link,
 .sticky .second-nav li a:visited{
@@ -276,11 +269,11 @@ font-size: 90%;
   color: #555;
 }
 
-.sticky .second-nav li .codepen:hover,
+/* .sticky .second-nav li .codepen:hover,
 .sticky .second-nav li .codepen:active{
  border-bottom: 2px solid #16a085;
  color: #16a085;
-}
+} */
 
 
 /******************************/
@@ -299,13 +292,9 @@ font-size: 90%;
   height: 420px;
 }
 
-.row .box-3 {
+/* .row .box-3 {
   padding: 0 35%;
-}
-
-
-
-
+} */
 
 /******************************/
 /* -----GONTOR-BRANCH------ */
@@ -440,4 +429,19 @@ footer p{
 .footer-nav li a:hover,
 .footer-nav li a:active{
   color: #ddd;
+}
+
+
+/******************************/
+/* -----Animations------ */
+/******************************/
+
+.js--wp-1,
+.js--wp-2{
+  opacity: 0;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated{
+  opacity: 1;
 }
