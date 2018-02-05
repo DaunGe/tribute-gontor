@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 /* mobile nav*/
 $('.js--nav-icon').click(function(){
-  var nav = $('.js--main-nav .js--second-nav');
+  var nav = $('.js--main-nav, .js--second-nav');
   var icon = $('.js--nav-icon i');
 
   nav.slideToggle(200);

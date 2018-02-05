@@ -237,7 +237,7 @@ font-size: 90%;
 .sticky .main-nav{margin-top: 5px;}
 
 .sticky .main-nav li a:link,
-.stick .main-nav li a:visited{
+.sticky .main-nav li a:visited{
   padding: 3px 0;
   color: #555;
 }
