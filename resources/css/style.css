@@ -409,7 +409,7 @@ footer p{
   color:#C32AA3;
 }
 
-.ion-social-codepen:hover {
+.ion-social-github:hover {
   color:#10ac84;
 }
 
@@ -444,4 +444,30 @@ footer p{
 .js--wp-1.animated,
 .js--wp-2.animated{
   opacity: 1;
+}
+
+/******************************/
+/* -----Animations TYPED ------ */
+/******************************/
+
+.typed-cursor{
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7 infinite;  
+}
+@keyframes blink{
+  0% { opacity: 1; }
+  50% ( opacity: 0;)
+  100% {opacity: 1;}
+}
+@-webkit-keyframes blink{
+  0% { opacity: 1; }
+  50% ( opacity: 0;)
+  100% {opacity: 1;}
+}
+@-moz-keyframes blink{
+  0% { opacity: 1; }
+  50% ( opacity: 0;)
+  100% {opacity: 1;}
 }

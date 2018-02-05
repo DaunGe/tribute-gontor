@@ -53,7 +53,16 @@ $('.js--nav-icon').click(function(){
 
   });
 
+  /*TYPED */
+  var typed = new Typed(".type", {
+  // Waits 1000ms after typing "First"
+  strings: ["Jadda wa jada", "sobaro dofiro", "qolla sidquhu qolla sodiquhu."],
+  typeSpeed: 50,
+  backSpeed: 200,
+  smartBackspace: true,
+  loop: true
 
+});
 
 
 
