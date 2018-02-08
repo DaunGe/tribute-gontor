@@ -50,13 +50,13 @@ $('.js--nav-icon').click(function(){
   $('.js--wp-2').waypoint(function(direction){
     $('.js--wp-2').addClass('animated fadeInUp');
   },{
-
+    offset:'30%'
   });
 
   /*TYPED */
   var typed = new Typed(".type", {
   // Waits 1000ms after typing "First"
-  strings: ["Jadda wa jada", 'saaro alad-darbi washola',"shobaro dzhofiro", "qolla shidquhu qolla shodiiquhu."],
+  strings: ["Jadda wa jada", 'saaro alad-darbi <br> washola',"shobaro dzhofiro", "qolla shidquhu <br>  qolla shodiiquhu"],
   typeSpeed: 50,
   backSpeed: 200,
   smartBackspace: true,
@@ -65,11 +65,11 @@ $('.js--nav-icon').click(function(){
 
 });
 /* magnificPopup*/
-$('.view').magnificPopup({
-  type:'image',
+  $('.view').magnificPopup({
+    type:'image',
 
 
-});
+  });
 
 
 });
