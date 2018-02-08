@@ -56,22 +56,20 @@ $('.js--nav-icon').click(function(){
   /*TYPED */
   var typed = new Typed(".type", {
   // Waits 1000ms after typing "First"
-  strings: ["Jadda wa jada", "sobaro dofiro", "qolla sidquhu qolla sodiquhu."],
+  strings: ["Jadda wa jada", 'saaro alad-darbi washola',"shobaro dzhofiro", "qolla shidquhu qolla shodiiquhu."],
   typeSpeed: 50,
   backSpeed: 200,
   smartBackspace: true,
-  loop: true
+  loop: true,
+  typedCursor: true
+
+});
+/* magnificPopup*/
+$('.view').magnificPopup({
+  type:'image',
+
 
 });
 
 
-
-
 });
-
-/* Activate-tooltipster*/
-   // $('.tooltip').tooltipster();
-   //
-   // $.tooltipster.setDeafult({
-   //   side:top;
-   // })

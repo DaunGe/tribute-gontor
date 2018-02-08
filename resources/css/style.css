@@ -454,7 +454,7 @@ footer p{
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
   -moz-animation: blink 0.7s infinite;
-  animation: blink 0.7 infinite;  
+  animation: blink 0.7 infinite;
 }
 @keyframes blink{
   0% { opacity: 1; }
@@ -471,3 +471,8 @@ footer p{
   50% ( opacity: 0;)
   100% {opacity: 1;}
 }
+
+
+/******************************/
+/* -----magnificPopup ------ */
+/******************************/
